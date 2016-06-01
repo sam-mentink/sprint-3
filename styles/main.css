@@ -29,6 +29,11 @@ h3 {
     color: white
 }
 
+p {
+    font-size: 16px;
+    padding-left: 7px;
+}
+
 .header {
     margin: 1px;
     right-margin: 50px;
