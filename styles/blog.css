@@ -1,0 +1,185 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h3 {
+    font-size: 10rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white
+}
+
+h6 {
+    font-size: 100%;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    padding-left: 7px;
+    float: center;
+}
+
+li {
+    font-size: 16px;
+}
+
+.header {
+    background-image: url(http://www.pixeden.com/media/k2/galleries/26/001-dark-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px;
+    right-margin: 50px;
+    width: 94%;
+    height: 65px;
+    background-color: black;
+    padding-right: 50px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+    padding: 8px;
+    }
+
+.row ul {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.row li {
+    background-image: url(http://www.pixeden.com/media/k2/galleries/26/001-dark-texture.jpg);
+    padding: 8px;
+    width: 94%;
+    height: 100%
+    margin-bottom: 7px;
+    background-color :black;
+    color: #ffffff;
+}
+
+.row li:hover {
+    background-color: purple;
+}
+
+.header:hover {
+    background-color: purple;
+}
+
+.col-12 {
+    background-image: url(https://geo-media.beatport.com/image/12492409.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10em;
+    width: 97%;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
+
+.footer {
+    background-image: url(http://www.pixeden.com/media/k2/galleries/26/001-dark-texture.jpg);
+    margin: 1px;
+    right-margin: 50px;
+    width: 94%;
+    height: 40px;
+    background-color: black;
+    padding-right: 40px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+    padding: 8px;
+    }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .col-12 ul{
+    width: 100%;
+    height: 100%
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .col-5 ul{
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .header {
+      width: 96%;
+      height: 15%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .col-12 menu {
+      height: 80%;
+      width: 96%;
+      margin-left: 7px;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .row li {
+      width: 25%;
+      height: 200%;
+    text-align: center;
+      background-size: 300px;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .col-3 menu {
+        float: left;
+      height: 80%;
+      width: 96%;
+      margin-left: 7px;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .footer {
+      width: 96%
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    p {
+      text-align: left;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
