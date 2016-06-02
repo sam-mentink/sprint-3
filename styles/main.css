@@ -18,8 +18,13 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 16px;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 h3 {
@@ -27,6 +32,11 @@ h3 {
     text-align: center;
     margin-bottom: 30px;
     color: white
+}
+
+h6 {
+    font-size: 20px;
+    color: white;
 }
 
 p {
@@ -48,6 +58,21 @@ li {
     right-margin: 50px;
     width: 94%;
     height: 65px;
+    background-color: black;
+    padding-right: 50px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+    padding: 8px;
+    }
+
+.header1 {
+    background-image: url(http://www.pixeden.com/media/k2/galleries/26/001-dark-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px;
+    right-margin: 50px;
+    width: 94%;
+    height: 30px;
     background-color: black;
     padding-right: 50px;
     margin-left: 0px;
@@ -111,9 +136,31 @@ li {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
+  .col-12 ul{
+    width: 100%;
+    height: 100%
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
   .row ul{
     width: 100%;
   }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .header1{
+    font-size: 10%;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    h6 {
+      text-align: center;
+    }
 }
 
 /* Larger than tablet */
@@ -126,8 +173,25 @@ li {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+    .header1 {
+      width: 96%;
+      height: 10%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
     .col-5 menu {
       height: 120%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .col-12 menu {
+      height: 80%;
+      width: 100%;
+      padding-left: 7px;
     }
 }
 
