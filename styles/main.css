@@ -18,12 +18,12 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 10rem;
     text-align: center;
     margin-bottom: 30px;
     color: white
@@ -32,6 +32,7 @@ h3 {
 p {
     font-size: 16px;
     padding-left: 7px;
+    float: center;
 }
 
 li {
@@ -39,25 +40,32 @@ li {
 }
 
 .header {
+    background-image: url(http://www.pixeden.com/media/k2/galleries/26/001-dark-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Khula', sans-serif;
     margin: 1px;
     right-margin: 50px;
     width: 94%;
     height: 65px;
     background-color: black;
-    padding-right: 40px;
+    padding-right: 50px;
     margin-left: 0px;
     margin-bottom: 7px;
     padding: 8px;
     }
 
 .row ul {
+    height: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 .row li {
+    background-image: url(http://www.pixeden.com/media/k2/galleries/26/001-dark-texture.jpg);
     padding: 8px;
     width: 94%;
+    height: 100%
     margin-bottom: 7px;
     background-color :black;
     color: #ffffff;
@@ -71,10 +79,16 @@ li {
     background-color: purple;
 }
 
-.topbox {
-    align:center;
-    max-height:10%;
-    max-width:10%;
+.col-12 {
+    background-image: url(https://geo-media.beatport.com/image/12492409.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10em;
+    width: 96%;
+    border: 3px black;
+    padding-right: 7px;
+}
 }
 
 .img src {
@@ -83,6 +97,7 @@ li {
 }
 
 .footer {
+    background-image: url(http://www.pixeden.com/media/k2/galleries/26/001-dark-texture.jpg);
     margin: 1px;
     right-margin: 50px;
     width: 94%;
@@ -94,38 +109,65 @@ li {
     padding: 8px;
     }
 
-}
-
-/* For mobile phones: */
-[class*="col-"] {
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .row ul{
     width: 100%;
+  }
 }
-@media only screen and (min-width: 768px) {
-    /* For mobile: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
 
-    @media only screen and (min-width: 769px - max-width: 1200) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .header {
+      width: 96%;
+      height: 15%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .col-5 menu {
+      height: 120%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .row li {
+      width: 96%;
+
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    h1 {
+      padding-top: 1%;
+      font-size: 40%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .footer {
+      width: 96%
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .row li {
+      text-align: center;
+      height: 150%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    p {
+      text-align: center;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
